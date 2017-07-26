@@ -22,7 +22,7 @@ To encourage further research, we provide some of the datasets we used, code to 
 
 ## Publications
 
-[Human Centered NLP with User-Factor Adaptation](#)
+[Human Centered NLP with User-Factor Adaptation](http://lunr.cs.stonybrook.edu/sites/lunr.cs.stonybrook.edu/files/userfactors_emnlp2017.pdf)
 
 Veronica E. Lynn, Youngseo Son, Vivek Kulkarni, Niranjan Balasubramanian, and H. Andrew Schwartz
 
