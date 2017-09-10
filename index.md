@@ -15,10 +15,11 @@ To encourage further research, we provide some of the datasets we used, code to 
 
 ## Downloads
 
-+ User-factor adaptation for stance detection
++ User-factor adaptation for stance detection (coming soon!)
 + PP-attachment dataset
-+ User factor inference code
++ User factor inference code (coming soon!)
 
+Get them on [GitHub](https://github.com/StonyBrookNLP/user-factor-adaptation).
 
 ## Publications
 
