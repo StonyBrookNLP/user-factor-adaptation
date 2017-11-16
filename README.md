@@ -32,7 +32,13 @@ Note that a token will only have its parent listed if it's a preposition. A pare
 
 ## User-Factor Adaptation for Stance Detection
 
-Coming soon!
+This is an implementation of the top performing stance detection system from [SemEval-2016 Task 6](http://alt.qcri.org/semeval2016/task6/), SVM-ngrams, with user-factor adaptation added to it.
+
+To run with adaptation, change the following variables in ``config.py``.
+- ``adapt_type`` : Whether to use discrete or continuous adaptation. Options are None, "disc", "cont".
+- ``factor_type``: Which factor to adapt to. Options are None, "age", "gender", "personality", "userembed". *TF-IDF and word2vec coming soon.*
+
+If one or both variables is set to ``None``, no adaptation will be used. Once that's done, simply run ``python main.py``.
 
 ## User Factor Inference
 
