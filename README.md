@@ -2,7 +2,7 @@
 
 User-factor adaptation is the general task of adapting NLP models to real-valued human attributes, or *factors*.
 
-Detail about user-factor adaptation and our approach to this problem can be found in:
+Details about user-factor adaptation and our approach to this problem can be found in:
 ```
 @inproceedings{Lynn2017EMNLP,
 title={Human Centered {NLP} with User-Factor Adaptation},

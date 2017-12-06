@@ -56,7 +56,7 @@ def compute_f1(predictions, labels):
     """
     Compute the F1 for FAVOR and AGAINST classes, as well as the average of the two.
     """
-    _, _, f1, _ = precision_recall_fscore_support(predictions, labels,
+    _, _, f1, _ = precision_recall_fscore_support(labels, predictions,
                                                   warn_for=("f1"))
     f1_against = f1[0]
     f1_favor = f1[2]
